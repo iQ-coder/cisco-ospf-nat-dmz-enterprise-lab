@@ -147,7 +147,9 @@ interface gig0/1
 - **Route redistribution awareness** — default routes kept static, internal routes dynamic
 - **OSPF neighbor relationships** — hello packets, DR/BDR election on broadcast segments
 - **ACL + NAT interaction** — inbound ACL on Se0/3/0 must permit established TCP and ICMP echo-replies for return traffic to flow
-
+- **SSH hardening** — RSA 1024-bit keys, SSHv2 enforced on all devices, 
+  Telnet disabled via `transport input ssh`, local authentication via 
+  `login local`
 ---
 
 ## Related Projects
@@ -167,3 +169,9 @@ This lab is part of a progressive Cisco networking series:
 - Cisco 2911 Routers
 - Cisco 3560-24PS Multilayer Switch
 - Cisco 2960-24TT Layer 2 Switches
+## Management Plane Security
+All network devices are hardened for remote management:
+- SSHv2 only — Telnet disabled on all VTY lines
+- Local authentication with encrypted credentials
+- RSA 1024-bit keys generated on all devices
+- `service password-encryption` enabled globally
