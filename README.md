@@ -1,6 +1,6 @@
 # cisco-ospf-nat-dmz-enterprise-lab
 
-An enterprise network lab built on top of the security architecture from [network-security-dmz-architecture-lab](https://github.com/YOUR_USERNAME/network-security-dmz-architecture-lab), extending it with multi-area OSPF dynamic routing and NAT/PAT for internet access.
+An enterprise network lab built on top of the security architecture from [network-security-dmz-architecture-lab](https://github.com/iQ-coder/network-security-dmz-architecture-lab), extending it with multi-area OSPF dynamic routing and NAT/PAT for internet access.
 
 This lab demonstrates how a real enterprise network evolves — starting from a secure static-routed architecture and graduating to dynamic routing with proper address translation at the edge.
 
@@ -19,20 +19,7 @@ This lab demonstrates how a real enterprise network evolves — starting from a 
 
 ## Topology
 
-```
-Internet (PC-OUTSIDE)
-        |
-      R-ISP (203.0.113.1)
-        | Se0/3/0 — Se0/3/0
-      R-EDGE (203.0.113.2) ← NAT/PAT here
-        | Gig0/1              Gig0/2
-      DMZ-SW               R-INSIDE ← ABR (Area 0 + Area 1)
-     /      \                  | Gig0/1
- WEB-Server  WEB-DB           MLS (Area 1)
- 172.16.1.20 172.16.1.10    /  |  \  \
-                          IT  HR Sales DB
-                         VLAN VLAN VLAN VLAN
-```
+(https://github.com/iQ-coder/cisco-ospf-nat-dmz-enterprise-lab/blob/main/Screenshot%202026-05-30%20032559.png)
 
 ---
 
