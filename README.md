@@ -156,7 +156,7 @@ This lab is part of a progressive Cisco networking series:
 
 | Repo | Concepts |
 |------|---------|
-| [network-security-dmz-architecture-lab](https://github.com/YOUR_USERNAME/network-security-dmz-architecture-lab) | DMZ architecture, VLANs, ACLs, static routing |
+| [network-security-dmz-architecture-lab](https://github.com/iQ-coder/network-security-dmz-architecture-lab) | DMZ architecture, VLANs, ACLs, static routing |
 | **cisco-ospf-nat-dmz-enterprise-lab** (this repo) | Multi-area OSPF, NAT/PAT, dynamic routing |
 
 ---
