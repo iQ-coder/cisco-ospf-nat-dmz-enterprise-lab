@@ -19,7 +19,7 @@ This lab demonstrates how a real enterprise network evolves — starting from a 
 
 ## Topology
 
-(https://github.com/iQ-coder/cisco-ospf-nat-dmz-enterprise-lab/blob/main/Screenshot%202026-05-30%20032559.png)
+!(https://github.com/iQ-coder/cisco-ospf-nat-dmz-enterprise-lab/blob/main/Screenshot%202026-05-30%20032559.png)
 
 ---
 
